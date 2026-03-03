@@ -1,0 +1,30 @@
+{
+  "name": "claude-scientific-skills",
+  "version": "2.26.0",
+  "description": "148+ scientific skills and 20 workflow commands covering biology, chemistry, medicine, data science, financial analysis, and more. Transform your AI agent into a research assistant.",
+  "author": {
+    "name": "K-Dense Inc.",
+    "email": "contact@k-dense.ai"
+  },
+  "homepage": "https://k-dense.ai",
+  "repository": "https://github.com/K-Dense-AI/claude-scientific-skills",
+  "license": "MIT",
+  "keywords": [
+    "scientific",
+    "research",
+    "bioinformatics",
+    "cheminformatics",
+    "drug-discovery",
+    "single-cell",
+    "clinical-trials",
+    "data-analysis",
+    "machine-learning",
+    "proteomics",
+    "genomics",
+    "medical-imaging",
+    "quantum-computing",
+    "financial-analysis"
+  ],
+  "commands": "./commands",
+  "skills": "./skills"
+}

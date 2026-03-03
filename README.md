@@ -119,7 +119,7 @@ git clone https://github.com/K-Dense-AI/claude-scientific-skills.git
 
 ### Step 2: Copy Skills to Your Skills Directory
 
-Copy the individual skill folders from `scientific-skills/` to one of the supported skill directories below. You can install skills **globally** (available across all projects) or **per-project** (available only in that project).
+Copy the individual skill folders from `skills/` to one of the supported skill directories below. You can install skills **globally** (available across all projects) or **per-project** (available only in that project).
 
 **Global installation** (recommended — skills available everywhere):
 
@@ -141,18 +141,18 @@ Copy the individual skill folders from `scientific-skills/` to one of the suppor
 
 **Example — global install for Cursor:**
 ```bash
-cp -r claude-scientific-skills/scientific-skills/* ~/.cursor/skills/
+cp -r claude-skills/skills/* ~/.cursor/skills/
 ```
 
 **Example — global install for Claude Code:**
 ```bash
-cp -r claude-scientific-skills/scientific-skills/* ~/.claude/skills/
+cp -r claude-skills/skills/* ~/.claude/skills/
 ```
 
 **Example — project-level install:**
 ```bash
 mkdir -p .cursor/skills
-cp -r /path/to/claude-scientific-skills/scientific-skills/* .cursor/skills/
+cp -r /path/to/claude-skills/skills/* .cursor/skills/
 ```
 
 **That's it!** Your AI agent will automatically discover the skills and use them when relevant to your scientific tasks. You can also invoke any skill manually by mentioning the skill name in your prompt.
@@ -662,8 +662,8 @@ A: Open an issue on GitHub with a clear description. For bugs, include reproduct
 Need help? Here's how to get support:
 
 - 📖 **Documentation**: Check the relevant `SKILL.md` and `references/` folders
-- 🐛 **Bug Reports**: [Open an issue](https://github.com/K-Dense-AI/claude-scientific-skills/issues)
-- 💡 **Feature Requests**: [Submit a feature request](https://github.com/K-Dense-AI/claude-scientific-skills/issues/new)
+- 🐛 **Bug Reports**: [Open an issue](https://github.com/K-Dense-AI/claude-skills/issues)
+- 💡 **Feature Requests**: [Submit a feature request](https://github.com/K-Dense-AI/claude-skills/issues/new)
 - 💼 **Enterprise Support**: Contact [K-Dense](https://k-dense.ai/) for commercial support
 - 🌐 **Community**: [Join our Slack](https://join.slack.com/t/k-densecommunity/shared_invite/zt-3iajtyls1-EwmkwIZk0g_o74311Tkf5g)
 
