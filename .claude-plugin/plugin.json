@@ -24,7 +24,5 @@
     "medical-imaging",
     "quantum-computing",
     "financial-analysis"
-  ],
-  "commands": "./commands",
-  "skills": "./skills"
+  ]
 }
